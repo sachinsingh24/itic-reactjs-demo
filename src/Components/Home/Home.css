@@ -118,7 +118,7 @@ img {
 
 }
 
-section.bg-light {
+.bg-light {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #f4f6fc !important;
@@ -186,13 +186,7 @@ span.fs-4 {
 
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
 .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
-    text-align: left;
-    display: block;
-    position: absolute;
-    top: -4px !important;
-    left: 0;
-    right: 0;
-    bottom: 0;
+top: -2.5px !important;
 }
 
 /* end impact section */
@@ -246,248 +240,7 @@ span.fs-4 {
 }
 
 /* end feature area section */
-/* start footer area */
-.footer-area {
-    background-color: #181616;
-    position: relative;
-    z-index: 1;
-    padding-top: 80px;
-}
 
-.divider {
-    width: 100%;
-    position: absolute;
-    height: 100px;
-    pointer-events: none;
-    -webkit-mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
-    mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
-    -webkit-mask-size: 100% 101%;
-    mask-size: 100% 101%;
-    background: #181616;
-    top: -100px;
-    left: 0;
-    z-index: -1;
-}
-
-.footer-area::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: -21px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    -webkit-animation: imageChange 1s linear 1s infinite;
-    animation: imageChange 1s linear 1s infinite;
-    background-image: url(../../Assets/itic-icons/footer-shape1.png);
-    background-position: center center;
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-}
-
-.footer-area::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: -21px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    -webkit-animation: imageChangeTwo 1s linear 1s infinite;
-    animation: imageChangeTwo 1s linear 1s infinite;
-    background-image: url(../../Assets/itic-icons/footer-shape2.png);
-    background-position: center center;
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-}
-
-@-webkit-keyframes imageChange {
-    0% {
-        opacity: 0;
-    }
-
-    75% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes imageChange {
-    0% {
-        opacity: 0;
-    }
-
-    75% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes imageChangeTwo {
-    0% {
-        opacity: 1;
-    }
-
-    75% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes imageChangeTwo {
-    0% {
-        opacity: 1;
-    }
-
-    75% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.single-footer-widget h3 {
-    color: #ffffff;
-    margin-bottom: 29px;
-    font-weight: 500;
-    font-size: 22px;
-}
-
-.single-footer-widget {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.single-footer-widget .logo {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-.single-footer-widget .logo a {
-    display: inline-block;
-}
-
-.single-footer-widget p {
-    color: #acc5db;
-    text-align: left;
-}
-
-.navlinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.single-footer-widget .services-list {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style-type: none;
-}
-
-.single-footer-widget .services-list li {
-    color: #acc5db;
-    margin-bottom: 10px;
-}
-
-.single-footer-widget .services-list li:last-child {
-    margin-bottom: 0;
-}
-
-.single-footer-widget .services-list li a {
-    display: inline-block;
-    color: #acc5db;
-}
-
-.single-footer-widget .services-list li a:hover {
-    color: #f9a33f;
-    padding-left: 5px;
-}
-
-.single-footer-widget .support-list {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style-type: none;
-}
-
-.single-footer-widget .support-list li {
-    color: #acc5db;
-    margin-bottom: 10px;
-}
-
-.single-footer-widget .support-list li:last-child {
-    margin-bottom: 0;
-}
-
-.single-footer-widget .support-list li a {
-    display: inline-block;
-    color: #acc5db;
-}
-
-.single-footer-widget .support-list li a:hover {
-    color: #f9a33f;
-    padding-left: 5px;
-}
-
-.footer-contact-info {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style-type: none;
-}
-
-.footer-contact-info li {
-    color: #acc5db;
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-.footer-contact-info li:last-child {
-    margin-bottom: 0;
-}
-
-.footer-contact-info li a {
-    display: inline-block;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    color: #ee4132;
-    text-decoration: none;
-    outline: 0 !important;
-
-}
-
-.footer-contact-info li a:hover {
-    color: #f9a33f;
-}
-
-.footer-social-icon {
-    font-size: 30px;
-    padding-bottom: 12px;
-}
-
-.copyright-area {
-    border-top: 1px solid #1c2250;
-    text-align: center;
-    margin-top: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.copyright-area p {
-    line-height: initial;
-    color: #acc5db;
-}
-
-/* end footer area */
 .section-title {
     text-align: center;
     max-width: 575px;
@@ -543,32 +296,7 @@ p {
     .single-funfacts h3 {
         font-size: 40px;
     }
-    .single-footer-widget .logo {
-        text-align: center !important;
-        margin: auto;
-    }
 
-    .single-footer-widget p {
-        text-align: center;
-    }
-
-    .divider {
-        display: none;
-    }
-
-    .footer-area::before {
-        background-size: cover;
-        top: 0;
-    }
-
-    .footer-area::after {
-        background-size: cover;
-        top: 0;
-    }
-
-    .single-footer-widget .logo {
-        margin-bottom: 15px !important;
-    }
 
 }
 
@@ -578,4 +306,6 @@ p {
         align-items: center;
         text-align: center;
     }
+
+
 }

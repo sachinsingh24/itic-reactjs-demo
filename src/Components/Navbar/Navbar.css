@@ -18,6 +18,9 @@
     padding: 10px;
     justify-content: center;
 }
+.navbar-brand {
+    color: #fff !important;
+}
 
 .nav-link:focus,
 .nav-link:hover,

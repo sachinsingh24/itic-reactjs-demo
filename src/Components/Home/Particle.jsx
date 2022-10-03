@@ -33,7 +33,7 @@ const Particle = () => {
         BackgroundMask: {
           cover: { color: '#bada55', opacity: 0.5 },
         },
-        fpsLimit: 90,
+        fpsLimit: 120,
         interactivity: {
           events: {
             onHover: {
@@ -60,25 +60,25 @@ const Particle = () => {
           },
           links: {
             color: '#ffffff',
-            distance: 100,
+            distance: 150,
             enable: true,
             opacity: 0.3,
             width: 1,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             direction: 'none',
             enable: true,
-            outModes: 'out',
+            outModes: 'bounce',
             random: false,
-            speed: { value: { min: 1, max: 1 } },
+            speed: { value: { min: 0.5, max: 1 } },
             straight: false,
-            bounce:false,
+            bounce: false,
           },
           number: {
-            value: 100,
+            value: 50,
             density: {
               enable: true,
               area: 800,

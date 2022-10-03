@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import '../Navbar/Navbar.css';
+import './Navbar.css';
 import Nav_logo from '../../Assets/Brand-logos/Nav-logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouseChimneyUser } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +16,7 @@ const Home_Navbar = () => {
     drop4: false,
   });
   return (
-    <div>
+    <>
       {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand} className='navbar-area'>
           <Container className='main-nav-w'>
@@ -112,7 +112,7 @@ const Home_Navbar = () => {
           </Container>
         </Navbar>
       ))}
-    </div>
+    </>
   );
 };
 
