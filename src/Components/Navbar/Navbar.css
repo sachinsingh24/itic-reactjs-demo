@@ -1,0 +1,117 @@
+/* Navbar area start */
+.navbar-area {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.Nav-style {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #4a6f8a !important;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link:active {
+    color: #f9a33f !important;
+    border: none;
+}
+
+.nav-link {
+    text-shadow: 0 0 #4a6f8a;
+    color: #4a6f8a !important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.navbar-toggler {
+    color: #ee4132 !important;
+    border-color: #ee4132 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 2px !important;
+}
+
+.navbar-toggler-icon {
+    color: #ee4132 !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBpZD0ib3JpZ2luYWwtaWNvbiIgZmlsbD0iI2VlNDEzMiI+PHBhdGggZD0iTTE3LjIsMjcuNTJjLTIuNDgxMTgsLTAuMDM1MDkgLTQuNzg5MDQsMS4yNjg1IC02LjAzOTg3LDMuNDExNjFjLTEuMjUwODMsMi4xNDMxIC0xLjI1MDgzLDQuNzkzNjkgMCw2LjkzNjc5YzEuMjUwODMsMi4xNDMxIDMuNTU4NjksMy40NDY3IDYuMDM5ODcsMy40MTE2MWgxMzcuNmMyLjQ4MTE4LDAuMDM1MDkgNC43ODkwNCwtMS4yNjg1IDYuMDM5ODcsLTMuNDExNjFjMS4yNTA4MywtMi4xNDMxIDEuMjUwODMsLTQuNzkzNjkgMCwtNi45MzY3OWMtMS4yNTA4MywtMi4xNDMxIC0zLjU1ODY5LC0zLjQ0NjcgLTYuMDM5ODcsLTMuNDExNjF6TTE3LjIsNzkuMTJjLTIuNDgxMTgsLTAuMDM1MDkgLTQuNzg5MDQsMS4yNjg1IC02LjAzOTg3LDMuNDExNjFjLTEuMjUwODMsMi4xNDMxIC0xLjI1MDgzLDQuNzkzNjkgMCw2LjkzNjc5YzEuMjUwODMsMi4xNDMxIDMuNTU4NjksMy40NDY3IDYuMDM5ODcsMy40MTE2MWgxMzcuNmMyLjQ4MTE4LDAuMDM1MDkgNC43ODkwNCwtMS4yNjg1IDYuMDM5ODcsLTMuNDExNjFjMS4yNTA4MywtMi4xNDMxIDEuMjUwODMsLTQuNzkzNjkgMCwtNi45MzY3OWMtMS4yNTA4MywtMi4xNDMxIC0zLjU1ODY5LC0zLjQ0NjcgLTYuMDM5ODcsLTMuNDExNjF6TTE3LjIsMTMwLjcyYy0yLjQ4MTE4LC0wLjAzNTA5IC00Ljc4OTA0LDEuMjY4NSAtNi4wMzk4NywzLjQxMTYxYy0xLjI1MDgzLDIuMTQzMSAtMS4yNTA4Myw0Ljc5MzY5IDAsNi45MzY3OWMxLjI1MDgzLDIuMTQzMSAzLjU1ODY5LDMuNDQ2NyA2LjAzOTg3LDMuNDExNjFoMTM3LjZjMi40ODExOCwwLjAzNTA5IDQuNzg5MDQsLTEuMjY4NSA2LjAzOTg3LC0zLjQxMTYxYzEuMjUwODMsLTIuMTQzMSAxLjI1MDgzLC00Ljc5MzY5IDAsLTYuOTM2NzljLTEuMjUwODMsLTIuMTQzMSAtMy41NTg2OSwtMy40NDY3IC02LjAzOTg3LC0zLjQxMTYxeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+") !important;
+}
+
+.btn-close {
+    border: 2px solid #ee4132 !important;
+    opacity: 1 !important;
+    background: transparent url(../../Assets/Brand-logos/close.png)center/1em auto no-repeat !important;
+}
+
+.btn-close:focus {
+    color: #ee4132 !important;
+
+}
+
+.dropdown-menu {
+    border-top: 2px solid #f9a33f !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+    width: 250px;
+    margin-top: -5px !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.dropdown-item {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    font-family: "Montserrat",
+        sans-serif !important;
+    -webkit-text-size-adjust: 100% !important;
+    -webkit-tap-highlight-color: transparent !important;
+    text-shadow: 0 0 #4a6f8a;
+    color: #4a6f8a !important;
+    border-bottom: 1px dashed #e5e5e5 !important;
+    padding: 10px !important;
+    white-space: initial !important
+}
+
+.dropdown-item:last-child {
+    border-bottom-width: 0px !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #f9a33f !important;
+    background-color: #ffffff !important;
+}
+
+.main-nav-w {
+    max-width: 1240px !important;
+}
+
+/* Navbar area end */
+
+
+/* Media Query for navbar */
+@media (min-width: 1200px) {}
+
+@media (max-width:576px) {
+    .navbar-brand {
+        margin-right: auto !important;
+    }
+
+    .Nav-style {
+        position: relative;
+        left: 10;
+    }
+}
