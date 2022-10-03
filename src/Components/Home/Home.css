@@ -558,10 +558,12 @@ p {
 
     .footer-area::before {
         background-size: cover;
+        top: 0;
     }
 
     .footer-area::after {
         background-size: cover;
+        top: 0;
     }
 
     .single-footer-widget .logo {
