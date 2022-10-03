@@ -345,99 +345,101 @@ const Home = () => {
                 </div>
               </div>
               <div className='col-lg-8 col-sm-12 navlinks'>
-                <div class='single-footer-widget col-lg-3 col-sm-6 col-md-6'>
-                  <h3>Main Links</h3>
+                <div className='row'>
+                  <div class='single-footer-widget col-lg-3 col-sm-6 col-6 col-md-6'>
+                    <h3>Main Links</h3>
 
-                  <ul class='services-list'>
-                    <li>
-                      <a href='../about-us.html'>About Us</a>
-                    </li>
-                    <li>
-                      <a href='../eeiith.html'>
-                        Entrepreneurship Ecosystem at IITH
-                      </a>
-                    </li>
-                    <li>
-                      <a href='../startups.html'>Startups</a>
-                    </li>
-                    <li>
-                      <a href='../contact-us.html'>Contact Details</a>
-                    </li>
-                    <li>
-                      <a href='../contact-us.html'>Book a Meeting</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class='single-footer-widget col-lg-3 col-sm-6 col-md-6'>
-                  <h3>People</h3>
+                    <ul class='services-list'>
+                      <li>
+                        <a href='../about-us.html'>About Us</a>
+                      </li>
+                      <li>
+                        <a href='../eeiith.html'>
+                          Entrepreneurship Ecosystem at IITH
+                        </a>
+                      </li>
+                      <li>
+                        <a href='../startups.html'>Startups</a>
+                      </li>
+                      <li>
+                        <a href='../contact-us.html'>Contact Details</a>
+                      </li>
+                      <li>
+                        <a href='../contact-us.html'>Book a Meeting</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='single-footer-widget col-lg-3 col-sm-6 col-6 col-md-6'>
+                    <h3>People</h3>
 
-                  <ul class='services-list'>
-                    <li>
-                      <a href='../board.html'>Board</a>
-                    </li>
-                    <li>
-                      <a href='../mentors.html'>Mentors</a>
-                    </li>
-                    {/* <li><a href="../coaches.html">Coaches</a></li>
+                    <ul class='services-list'>
+                      <li>
+                        <a href='../board.html'>Board</a>
+                      </li>
+                      <li>
+                        <a href='../mentors.html'>Mentors</a>
+                      </li>
+                      {/* <li><a href="../coaches.html">Coaches</a></li>
                             <li><a href="../network.html">Network</a></li> */}
-                    <li>
-                      <a href='../team.html'>Team</a>
-                    </li>
-                    <li>
-                      <a href='../careers.html'>Careers</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class='single-footer-widget col-lg-3 col-sm-6 col-md-6'>
-                  <h3>Programs</h3>
+                      <li>
+                        <a href='../team.html'>Team</a>
+                      </li>
+                      <li>
+                        <a href='../careers.html'>Careers</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='single-footer-widget col-lg-3 col-sm-6 col-6 col-md-6'>
+                    <h3>Programs</h3>
 
-                  <ul class='support-list'>
-                    <li>
-                      <a href='../nice.html'>NICE</a>
-                    </li>
-                    <li>
-                      <a href='../tihan.html'>TiHAN</a>
-                    </li>
-                    <li>
-                      <a href='../idex-dio.html'>iDEX</a>
-                    </li>
-                    <li>
-                      <a href='../nidhi-prayas.html'>NIDHI PRAYAS</a>
-                    </li>
-                    <li>
-                      <a href='../meity-tide.html'>Meity TIDE 2.0</a>
-                    </li>
-                    <li>
-                      <a href='../aisea.html'>AISEA</a>
-                    </li>
-                    <li>
-                      <a href='../bel-seed-fund.html'>BEL Seed Fund</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class='single-footer-widget col-lg-3 col-sm-6 col-md-6'>
-                  <h3>Media</h3>
+                    <ul class='support-list'>
+                      <li>
+                        <a href='../nice.html'>NICE</a>
+                      </li>
+                      <li>
+                        <a href='../tihan.html'>TiHAN</a>
+                      </li>
+                      <li>
+                        <a href='../idex-dio.html'>iDEX</a>
+                      </li>
+                      <li>
+                        <a href='../nidhi-prayas.html'>NIDHI PRAYAS</a>
+                      </li>
+                      <li>
+                        <a href='../meity-tide.html'>Meity TIDE 2.0</a>
+                      </li>
+                      <li>
+                        <a href='../aisea.html'>AISEA</a>
+                      </li>
+                      <li>
+                        <a href='../bel-seed-fund.html'>BEL Seed Fund</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='single-footer-widget col-lg-3 col-sm-6 col-6 col-md-6'>
+                    <h3>Media</h3>
 
-                  <ul class='support-list'>
-                    <li>
-                      <a href='../videos.html'>Videos</a>
-                    </li>
-                    <li>
-                      <a href='../reports.html'>Reports</a>
-                    </li>
-                    <li>
-                      <a href='../downloads.html'>Downloads</a>
-                    </li>
-                    <li>
-                      <a href='../privacy-policy.html'>Privacy Policy</a>
-                    </li>
-                    {/* <!-- <li><a href="../gallery.html">Gallery</a></li> -->
+                    <ul class='support-list'>
+                      <li>
+                        <a href='../videos.html'>Videos</a>
+                      </li>
+                      <li>
+                        <a href='../reports.html'>Reports</a>
+                      </li>
+                      <li>
+                        <a href='../downloads.html'>Downloads</a>
+                      </li>
+                      <li>
+                        <a href='../privacy-policy.html'>Privacy Policy</a>
+                      </li>
+                      {/* <!-- <li><a href="../gallery.html">Gallery</a></li> -->
                             <!-- <li><a href="../newsletter.html">Newsletter</a></li> -->
 
                             <!-- <li><a href="../press-newsroom.html">Press / Newsroom</a></li> -->
                             <!--<li><a href="brandkit.html">Brandkit</a></li>-->
                             <!-- <li><a href="../blog.html">Blog</a></li> --> */}
-                  </ul>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className='col-lg-12 text-center'>

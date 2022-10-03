@@ -273,7 +273,7 @@ span.fs-4 {
     content: '';
     position: absolute;
     left: 0;
-    top: 0;
+    top: -21px;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -281,7 +281,7 @@ span.fs-4 {
     animation: imageChange 1s linear 1s infinite;
     background-image: url(../../Assets/itic-icons/footer-shape1.png);
     background-position: center center;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
 }
 
@@ -289,7 +289,7 @@ span.fs-4 {
     content: '';
     position: absolute;
     left: 0;
-    top: 0;
+    top: -21px;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -297,7 +297,7 @@ span.fs-4 {
     animation: imageChangeTwo 1s linear 1s infinite;
     background-image: url(../../Assets/itic-icons/footer-shape2.png);
     background-position: center center;
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
 }
 
@@ -366,12 +366,12 @@ span.fs-4 {
 
 .single-footer-widget {
     margin-bottom: 30px;
-    text-align: end;
+    text-align: center;
 }
 
 .single-footer-widget .logo {
     margin-bottom: 15px;
-    text-align: left !important;
+    text-align: left;
 }
 
 .single-footer-widget .logo a {
@@ -543,6 +543,32 @@ p {
     .single-funfacts h3 {
         font-size: 40px;
     }
+    .single-footer-widget .logo {
+        text-align: center !important;
+        margin: auto;
+    }
+
+    .single-footer-widget p {
+        text-align: left;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .footer-area::before {
+        background-size: cover;
+    }
+
+    .footer-area::after {
+        background-size: cover;
+    }
+
+    .single-footer-widget .logo {
+        margin-bottom: 15px !important;
+
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
