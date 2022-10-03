@@ -549,7 +549,7 @@ p {
     }
 
     .single-footer-widget p {
-        text-align: left;
+        text-align: center;
     }
 
     .divider {
@@ -568,10 +568,6 @@ p {
 
     .single-footer-widget .logo {
         margin-bottom: 15px !important;
-    }
-
-    .single-footer-widget .p {
-        text-align: center;
     }
 
 }
