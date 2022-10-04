@@ -88,8 +88,8 @@ const Home = () => {
         </div>
       </section>
       {/* end banner area */}
-      {/* Start Overview Area */}
 
+      {/* Start Overview Area */}
       <section>
         <div className='bg-light'>
           <Slide direction='up' in={overview} timeout={{ enter: 2000 }}>

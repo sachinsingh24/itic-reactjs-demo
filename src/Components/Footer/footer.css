@@ -3,7 +3,7 @@
     background-color: #181616;
     position: relative;
     z-index: 1;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .divider {
@@ -25,7 +25,7 @@
     content: '';
     position: absolute;
     left: 0;
-    top: -21px;
+    top: 0px;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -41,7 +41,7 @@
     content: '';
     position: absolute;
     left: 0;
-    top: -21px;
+    top: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -111,14 +111,14 @@
 
 .single-footer-widget h3 {
     color: #ffffff;
-    margin-bottom: 29px;
+    margin-bottom: 20px;
     font-weight: 500;
     font-size: 22px;
 }
 
 .single-footer-widget {
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 25px;
+    text-align: end;
 }
 
 .single-footer-widget .logo {
@@ -165,32 +165,6 @@
     color: #f9a33f;
     /* padding-left: 5px; */
 }
-
-.single-footer-widget .support-list {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style-type: none;
-}
-
-.single-footer-widget .support-list li {
-    color: #acc5db;
-    margin-bottom: 10px;
-}
-
-.single-footer-widget .support-list li:last-child {
-    margin-bottom: 0;
-}
-
-.single-footer-widget .support-list li a {
-    display: inline-block;
-    color: #acc5db;
-}
-
-.single-footer-widget .support-list li a:hover {
-    color: #f9a33f;
-    /* padding-left: 5px; */
-}
-
 .footer-contact-info {
     padding-left: 0;
     margin-bottom: 0;
@@ -206,7 +180,6 @@
 .footer-contact-info li:last-child {
     margin-bottom: 0;
 }
-
 .footer-contact-info li a {
     display: inline-block;
     -webkit-transition: 0.5s;
@@ -214,18 +187,14 @@
     color: #ee4132;
     text-decoration: none;
     outline: 0 !important;
-
 }
-
 .footer-contact-info li a:hover {
     color: #f9a33f;
 }
-
 .footer-social-icon {
     font-size: 30px;
     padding-bottom: 12px;
 }
-
 .copyright-area {
     border-top: 1px solid #1c2250;
     text-align: center;
@@ -233,21 +202,16 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .copyright-area p {
     line-height: initial;
     color: #acc5db;
 }
-
 /* end footer area */
-
-
 @media (max-width : 575px) {
     .single-footer-widget .logo {
         text-align: center !important;
         margin: auto;
     }
-
     .single-footer-widget p {
         text-align: center;
     }

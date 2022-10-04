@@ -90,7 +90,7 @@ const Footer = () => {
                 <div className='single-footer-widget col-lg-3 col-sm-6 col-6 col-md-6'>
                   <h3>Programs</h3>
 
-                  <ul className='support-list'>
+                  <ul className='services-list'>
                     <li>
                       <a href='../nice.html'>NICE</a>
                     </li>
@@ -116,7 +116,7 @@ const Footer = () => {
                 </div>
                 <div className='single-footer-widget col-lg-3 col-sm-6 col-6 col-md-6'>
                   <h3>Media</h3>
-                  <ul className='support-list'>
+                  <ul className='services-list'>
                     <li>
                       <a href='../videos.html'>Videos</a>
                     </li>

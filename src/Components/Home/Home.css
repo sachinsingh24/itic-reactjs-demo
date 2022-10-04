@@ -115,7 +115,6 @@ img {
 /* Overview section */
 .con-width {
     max-width: 1290px;
-
 }
 
 .bg-light {
@@ -131,7 +130,6 @@ img {
     align-items: center;
     height: 100%;
     width: 100%;
-
 }
 
 .span-color {
@@ -154,8 +152,6 @@ img {
 
 .funfact-style-two {
     padding: 0 10px;
-    font-family: "Helvetica Neue",
-        sans-serif;
     line-height: 1.1em;
 }
 
