@@ -251,21 +251,17 @@
     .single-footer-widget p {
         text-align: center;
     }
-
     .divider {
         display: none;
     }
-
     .footer-area::before {
         background-size: cover;
         top: 0;
     }
-
     .footer-area::after {
         background-size: cover;
         top: 0;
     }
-
     .single-footer-widget .logo {
         margin-bottom: 15px !important;
     }
