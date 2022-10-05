@@ -2,36 +2,17 @@
 
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import hero_img from '../../Assets/slider/hero-img.png';
-import build_1 from '../../Assets/slider/Homepageimg1.jpg';
-import build_2 from '../../Assets/slider/Homepageimg2.jpg';
 import Particle from './Particle.jsx';
-import { Slide } from '@material-ui/core';
 import Odometer from 'react-odometerjs';
 import 'odometer/themes/odometer-theme-default.css';
 import { facilities, focus_area } from './data.js';
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
-  const [odo, setOdo] = useState({
-    first: 0,
-    second: 0,
-    third: 0,
-    fourth: 0,
-    fifth: 0,
-    sixth: 0,
-  });
-
-  const [overview, setOverview] = useState(false);
-  const [impact, setImpact] = useState(false);
-  const [impact1, setImpact1] = useState(false);
-
+  const [odo, setOdo] = useState({});
   const handleScroll = () => {
     const position = window.pageYOffset;
-    console.log(position);
-    if (position > 350) {
-      setOverview(true);
-    }
-    if (position > 850) {
+    if (position < 950) {
       setOdo({
         first: 0,
         second: 0,
@@ -40,10 +21,8 @@ const Home = () => {
         fifth: 0,
         sixth: 0,
       });
-      setImpact(true);
     }
     if (position > 950) {
-      setImpact1(true);
       setOdo({
         first: 100,
         second: 7,
@@ -72,7 +51,10 @@ const Home = () => {
             <div className='row row-align'>
               <div className='col-lg-6 col-md-12'>
                 <div className='slide-image'>
-                  <img alt='img' src={hero_img} />
+                  <img
+                    alt='img'
+                    src={require('../../Assets/slider/hero-img.png')}
+                  />
                 </div>
               </div>
               <div className='col-lg-6 col-md-12 m-auto '>
@@ -92,7 +74,7 @@ const Home = () => {
       {/* Start Overview Area */}
       <section>
         <div className='bg-light'>
-          <Slide direction='up' in={overview} timeout={{ enter: 2000 }}>
+          <Fade bottom>
             <div className='container con-width'>
               <div className='col-lg-12'>
                 <h2 className='section-title'>
@@ -114,24 +96,24 @@ const Home = () => {
               </div>
               <div className='Overview-img row'>
                 <div className='col-lg-6 col-md-12 aln-lft'>
-                  <Slide
-                    direction='right'
-                    in={overview}
-                    timeout={{ enter: 3000 }}>
-                    <img src={build_1} alt='homepage' />
-                  </Slide>
+                  <Fade left>
+                    <img
+                      src={require('../../Assets/slider/Homepageimg1.jpg')}
+                      alt='homepage'
+                    />
+                  </Fade>
                 </div>
                 <div className='col-lg-6 col-md-12 aln-rt'>
-                  <Slide
-                    direction='right'
-                    in={overview}
-                    timeout={{ enter: 3000 }}>
-                    <img src={build_2} alt='homepage' />
-                  </Slide>
+                  <Fade right>
+                    <img
+                      src={require('../../Assets/slider/Homepageimg2.jpg')}
+                      alt='homepage'
+                    />
+                  </Fade>
                 </div>
               </div>
             </div>
-          </Slide>
+          </Fade>
         </div>
       </section>
 
@@ -144,14 +126,14 @@ const Home = () => {
           </h2>
           <div className='funfacts-inner'>
             <div className='row pb-3 m-auto'>
-              <Slide direction='right' in={impact} timeout={{ enter: 3000 }}>
+              <Fade left>
                 <div className='col-lg-4 col-6 col-sm-6'>
                   <div className='single-funfacts'>
                     <div className='funfacts-style-two'>
                       <h3>
                         <Odometer
                           format='d'
-                          duration={3000}
+                          duration={1000}
                           value={`${odo.first}`}
                         />
                         +
@@ -160,15 +142,15 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </Slide>
-              <Slide direction='right' in={impact} timeout={{ enter: 3000 }}>
+              </Fade>
+              <Fade left>
                 <div className='col-lg-4 col-6 col-sm-6'>
                   <div className='single-funfacts'>
                     <div className='funfacts-style-two'>
                       <h3>
                         <Odometer
                           format='(,ddd).dd'
-                          duration={3000}
+                          duration={1000}
                           value={`${odo.second}`}
                         />{' '}
                         Cr+
@@ -177,15 +159,15 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </Slide>
-              <Slide direction='right' in={impact} timeout={{ enter: 3000 }}>
+              </Fade>
+              <Fade left>
                 <div className='col-lg-4 col-6 col-sm-6'>
                   <div className='single-funfacts'>
                     <div className='funfacts-style-two'>
                       <h3>
                         <Odometer
                           format='(,ddd).dd'
-                          duration={3000}
+                          duration={1000}
                           value={`${odo.third}`}
                         />{' '}
                         Cr+
@@ -194,15 +176,15 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </Slide>
-              <Slide direction='right' in={impact1} timeout={{ enter: 3000 }}>
+              </Fade>
+              <Fade left>
                 <div className='col-lg-4 col-6 col-sm-6'>
                   <div className='single-funfacts'>
                     <div className='funfacts-style-two'>
                       <h3>
                         <Odometer
                           format='(,ddd).dd'
-                          duration={3000}
+                          duration={1000}
                           value={`${odo.fourth}`}
                         />{' '}
                         Lac <span className='fs-4'>Sq.ft</span>
@@ -211,15 +193,15 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </Slide>
-              <Slide direction='right' in={impact1} timeout={{ enter: 3000 }}>
+              </Fade>
+              <Fade left>
                 <div className='col-lg-4 col-6 col-sm-6'>
                   <div className='single-funfacts'>
                     <div className='funfacts-style-two'>
                       <h3>
                         <Odometer
                           format='(,ddd).dd'
-                          duration={3000}
+                          duration={1000}
                           value={`${odo.fifth}`}
                         />
                         +
@@ -228,15 +210,15 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </Slide>
-              <Slide direction='right' in={impact1} timeout={{ enter: 3000 }}>
+              </Fade>
+              <Fade left>
                 <div className='col-lg-4 col-6 col-sm-6'>
                   <div className='single-funfacts'>
                     <div className='funfacts-style-two'>
                       <h3>
                         <Odometer
                           format='(,ddd).dd'
-                          duration={3000}
+                          duration={1000}
                           value={`${odo.sixth}`}
                         />
                         +
@@ -245,7 +227,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </Slide>
+              </Fade>
             </div>
           </div>
         </div>
