@@ -12,7 +12,7 @@ const Home = () => {
   const [odo, setOdo] = useState({});
   const handleScroll = () => {
     const position = window.pageYOffset;
-    if (position < 950) {
+    if (position > 850) {
       setOdo({
         first: 0,
         second: 0,
