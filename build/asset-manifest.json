@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1775994e.css",
+    "main.js": "/static/js/main.53de5622.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.25f64b98898d7dd3173c.svg",
+    "static/media/hero-img.png": "/static/media/hero-img.5e5bf718bee03288f2a0.png",
+    "static/media/boxicons.eot": "/static/media/boxicons.4084a2d243507fb5c558.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.8e87a248a17e275fd07d.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.bc6c370a5b4262f9df03.ttf",
+    "static/media/footer brand logo.png": "/static/media/footer brand logo.d713991ca9c59932ef66.png",
+    "static/media/Homepageimg1.jpg": "/static/media/Homepageimg1.51cc59d12a5cc092ff2d.jpg",
+    "static/media/Homepageimg2.jpg": "/static/media/Homepageimg2.de99287ad1f14ba8af64.jpg",
+    "static/media/boxicons.woff2": "/static/media/boxicons.16362871efd262caa3f8.woff2",
+    "static/media/footer-shape2.png": "/static/media/footer-shape2.c092fb27da2f9dd97e41.png",
+    "static/media/footer-shape1.png": "/static/media/footer-shape1.02d771b3ee61a34efc35.png",
+    "static/media/map.png": "/static/media/map.33d98792e49772c27784.png",
+    "static/media/Cybersecurity.png": "/static/media/Cybersecurity.939c61e50581fb164a3d.png",
+    "static/media/Robotics.png": "/static/media/Robotics.b8c271b3dce656347216.png",
+    "static/media/AR VR.png": "/static/media/AR VR.d7384a523e24e0f3a772.png",
+    "static/media/Quantum Computing.png": "/static/media/Quantum Computing.501dddb61b094e6c9c86.png",
+    "static/media/Networking Events.png": "/static/media/Networking Events.47268291475185fed451.png",
+    "static/media/Sensors.png": "/static/media/Sensors.ab81152fc0589adb6fe9.png",
+    "static/media/Chip Design.png": "/static/media/Chip Design.ae7e05308ccb80e4aade.png",
+    "index.html": "/index.html",
+    "main.1775994e.css.map": "/static/css/main.1775994e.css.map",
+    "main.53de5622.js.map": "/static/js/main.53de5622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1775994e.css",
+    "static/js/main.53de5622.js"
+  ]
+}
