@@ -15,9 +15,10 @@ const Home_Navbar = () => {
     drop3: false,
     drop4: false,
   });
+
   return (
     <>
-      {['sm'].map((expand) => (
+      {['md'].map((expand) => (
         <Navbar key={expand} expand={expand} className='navbar-area'>
           <Container className='main-nav-w'>
             <Navbar.Brand href='#'>

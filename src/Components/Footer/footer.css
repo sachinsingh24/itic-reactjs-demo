@@ -138,7 +138,7 @@
 .navlinks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end
 }
 
 .single-footer-widget .services-list {
@@ -212,8 +212,11 @@
         text-align: center !important;
         margin: auto;
     }
+    .single-footer-widget {
+        text-align: center !important;
+    }
     .single-footer-widget p {
-        text-align: center;
+        text-align: center !important;
     }
     .divider {
         display: none;

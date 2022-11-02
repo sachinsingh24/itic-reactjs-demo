@@ -14,7 +14,9 @@ body {
   -webkit-tap-highlight-color: transparent;
   overflow: visible !important;
   }
-
+:focus-visible {
+  outline: none !important;
+}
   code {
     font-family: "Montserrat",
       sans-serif;
@@ -213,26 +215,20 @@ body {
   }
 
   .default-btn {
-    border: none;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-    z-index: 1;
-    color: #ffffff;
-    background-color: #ff612f;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    text-decoration: none;
-    font-family: "Montserrat",
-      sans-serif !important;
+border: none;
+position: relative;
+display: inline-block;
+text-align: center;
+overflow: hidden;
+z-index: 1;
+color: #ffffff;
+background-color: #ff612f;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+border-radius: 5px;
+font-weight: 500;
+font-size: 15px;
+padding: 10px;
   }
 
   .default-btn span {
@@ -264,7 +260,7 @@ body {
   }
 
   .others-options {
-    margin-left: auto;
+    align-items: flex-end;
   }
 
   .others-options .default-btn {
